@@ -1,0 +1,384 @@
+.app-container
+{
+    background-color: rgba(249, 249, 249);
+    min-height: 100vh;
+    display: flex;
+}
+.main
+{
+    flex: 1;
+    padding-left: 43px;
+}
+.head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 0 auto;
+    height: 72px;
+    top: 32px;
+    left: 118px;
+    margin-top: 32px;
+}
+.head .welcome
+{
+    width: 233px;
+    height: 72px;
+}
+.head .welcome h1
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.head .welcome p
+{
+    color: rgba(173, 167, 167, 1);
+    top: 48px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+.head .welcome_1
+{
+    align-items: center;
+    display: flex;
+    width: 498px;
+    height: 52px;
+    gap: 20px;
+    margin-right: 20px;
+}
+.head .welcome_1 .search
+{
+    display: flex;
+    align-items: center;
+    width: 354px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+}
+.head .welcome_1 .search input
+{
+    
+    width: 57px;
+    height: 24px;
+    top: 14px;
+    left: 60px;
+    border: none;      
+    outline: none;
+}
+.head .welcome_1 .search input::placeholder
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.head .welcome_1 .search img
+{
+    width: 24px;
+    height: 24px;
+    margin: 14px 16px 14px 20px;
+}
+.head .welcome_1 .notifi
+{
+    width: 52px;
+    height: 52px;
+    left: 374px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+.head .welcome_1 .notifi img
+{
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 388px;
+    margin: 14px;
+}
+.head .welcome_1 .avata
+{
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu_bar
+{
+    background: rgb(255, 255, 255);
+    width: 78px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_bar .icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 36px;
+    padding-top: 159px;
+}
+
+.menu_bar .icon .icon_1
+{
+    background: linear-gradient(269.84deg, rgba(65, 130, 249, 0.2) -38.97%, rgba(65, 130, 249, 0.005) 90.01%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+}
+.menu_bar .icon .icon_1 img
+{
+    width: 24px;
+    height: 24px;
+}
+.menu_bar .icon .icon_2
+{
+    width: 24px;
+    height: 24px;
+}
+.infor
+{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+    height: 856px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 32px;
+    margin-right: 40px;
+}
+.infor .title
+{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.infor .infor_user
+{
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    padding: 0 32px; 
+    box-sizing: border-box;
+}
+.infor .infor_user .user
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: 32px 0;
+}
+.infor .infor_user .user .id
+{
+    display: flex;
+    width: 322px;
+    height: 100px;
+    gap: 24px;
+}
+.avat
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 60px;
+}
+.name h1
+{
+    width: 132px;
+    height: 30px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.name p
+{
+    color: rgba(173, 167, 167, 1);
+    width: 198px;
+    height: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-top: 6px;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(65, 130, 249, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-right: 0px;
+}
+.user_input
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 32px;
+    width: 100%;
+}
+.input_group
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 88px;
+    gap: 12px;
+}
+.input_group label
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.input
+{
+    display: flex;
+    align-items: center;
+    background: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.input input
+{
+    width: 100%;
+    height: 24px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.input img
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
+.email
+{
+    display: flex; 
+    flex-direction: column;
+    width: 266px;
+    height: 177px;
+    margin-right: 32px;
+    gap: 26px;
+}
+.email h1
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+.email_box
+{
+    display: flex;
+    align-items: center;
+    width: 266px;
+    height: 54px;
+}
+.email_box .box
+{
+    background: rgba(236, 243, 254);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.email_box img
+{
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+}
+.email_name
+{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    gap: 6px;
+}
+.email_name p
+{
+    margin: 0;
+}
+.email_name .addre
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.email_name .day
+{
+    color: rgba(173, 167, 167, 1);
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.add_email
+{
+    background: rgba(236, 243, 254);
+    width: 209px;
+    height: 44px;
+    border-radius: 8px;
+}
+.add_email p
+{
+    color: rgba(65, 130, 249, 1);
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin: 10px 24px 10px 24px;
+}
